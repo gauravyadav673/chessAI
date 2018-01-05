@@ -1,0 +1,23 @@
+{
+  "name": "gchess",
+  "version": "1.0.0",
+  "description": "Chess AI built in js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravyadav673/chessAI.git"
+  },
+  "author": "Gaurav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gauravyadav673/chessAI/issues"
+  },
+  "homepage": "https://github.com/gauravyadav673/chessAI#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
