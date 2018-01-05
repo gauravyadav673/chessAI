@@ -126,7 +126,7 @@ var takeNextMove = function(){
 	if(game.in_stalemate() || game.in_draw()){
 		alert("DRAW");
 	}
-	game.move(callForBestMove(4, game, false));
+	game.move(callForBestMove(3, game, false));
 	board.position(game.fen());
 	undoFlag = 0;
 }
